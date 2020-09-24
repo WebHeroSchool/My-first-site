@@ -4,20 +4,35 @@
 }
 .header {
  display: flex;
- padding: 40px 0;
  justify-content: space-between;
 }
 .logo, .menu {
  display: inline-block;
 }
 .logo {
-// padding: 40px 0;
-// font: bold 24px/31px pt_serif, arial, helvetica, sans-serif;
-width: 190px;
-height: 35px;
-background: url('img/logo.svg');
+ font: bold 24px/31px pt_serif, arial, helvetica, sans-serif;
+ position: relative;
+ padding: 40px 0;
+ padding-left: 44px;
 }
-
+.logo__circle {
+position: absolute;
+left: 0;
+top: 50%;
+transform: translateY(-50%);
+width: 28px;
+height: 28px;
+border-radius: 50%;
+opacity: .7;
+}
+.logo__circle_color_blue {
+ background: #C8DBFB;
+ left: 8px;
+ top: 56%;
+}
+.logo__circle_color_dark-blue {
+ background: #0056EC;
+}
 .menu {
  display: flex;
  align-items: center;
