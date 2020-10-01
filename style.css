@@ -10,9 +10,15 @@
  display: inline-block;
 }
 .logo {
- font: bold 24px/31px pt_serif, arial, helvetica, sans-serif;
- position: relative;
  padding: 40px 0;
+ font-family: pt_serifbold, arial, helvetica, sans-serif;
+ font-weight: bold;
+ font-size: 24px;
+ line-height: 31px;
+
+ /*font: bold 24px/31px pt_serif, arial, helvetica, sans-serif;*/
+ position: relative;
+
  padding-left: 44px;
 }
 .logo__circle {
