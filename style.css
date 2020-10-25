@@ -9,16 +9,15 @@ body {
 .header {
  display: flex;
  justify-content: space-between;
+ margin-bottom: 100px;
 }
 .main {
- padding-top: 100px;
- padding-right: 63%;
- background: url(img/mainImg.svg);
+  padding: 0 63% 250px 0;
+ background: top right no-repeat url(img/mainImg.svg);
 }
-
 .main__title {
  margin: 0 0 40px 0;
- font: bold 50px/65px pt_serif, arial, helvetica, sans-serif;
+ font: 700 50px/65px pt_serif, arial, helvetica, sans-serif;
 }
 .main-content__text{
  margin: 0 0 41px 0;
@@ -27,7 +26,6 @@ body {
 .main__button {
  font: 14px/16px Roboto, arial, helvetica, sans-serif;
 }
-
 .logo, .menu {
  display: inline-block;
 }
