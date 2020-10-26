@@ -12,19 +12,23 @@ body {
  margin-bottom: 100px;
 }
 .main {
-  padding: 0 63% 250px 0;
- background: top right no-repeat url(img/mainImg.svg);
+ padding-top: 206px;
+ padding-right: 63%;
+/* background: url(img/mainImg.svg);*/
 }
 .main__title {
- margin: 0 0 40px 0;
- font: 700 50px/65px pt_serif, arial, helvetica, sans-serif;
+  margin: 0 0 40px 0;
+ font: bold 66px/87px pt_serif, arial, helvetica, sans-serif;
 }
-.main-content__text{
+
+.main__text {
  margin: 0 0 41px 0;
- font: 18px/21px Roboto, arial, helvetica, sans-serif;
+ font: 22px/26px Roboto, arial, helvetica, sans-serif;
+
 }
+
 .main__button {
- font: 14px/16px Roboto, arial, helvetica, sans-serif;
+ font: 18px/21px Roboto, arial, helvetica, sans-serif;
 }
 .logo, .menu {
  display: inline-block;
