@@ -12,9 +12,12 @@ body {
  margin-bottom: 100px;
 }
 .main {
- padding-top: 206px;
+ padding-top: 500px;
  padding-right: 63%;
-/* background: url(img/mainImg.svg);*/
+background: url(img/mainImg.svg);
+background-repeat: no-repeat;
+background-position: top right;
+background-size: 770px;
 }
 .main__title {
   margin: 0 0 40px 0;
