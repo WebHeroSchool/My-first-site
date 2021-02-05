@@ -11,16 +11,15 @@ body {
  justify-content: space-between;
  margin-bottom: 51px;
 }
-.main {
-   padding-top: 108px;
-   padding-right: 63%;
-   padding-bottom: 206px;
-     background: url(img/mainImg.svg);
-     background-repeat: no-repeat;
-     background-position: top right;
-     background-size: 770px;
-     background-position-y: 34px;
-
+.main{
+  padding-top: 108px;
+  padding-right: 63%;
+  padding-bottom: 206px;
+  background: url(img/mainImg.svg);
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: 770px;
+  background-position-y: 34px;
 }
 .main-content__title{
   margin: 0 0 40px 0;
@@ -60,7 +59,7 @@ body {
    position: relative;
    padding-left: 44px;
 }
-.logo__circle {
+.logo__circle{
    position: absolute;
    left: 4px;
    top: 34%;
@@ -85,15 +84,14 @@ body {
  /*margin-right: -469px;*/
   margin: 0 -16px 40px 0;
 }
-.menu__item {
+.menu__item{
    position: relative;
-     font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
-     margin-right: 26px;
-     color: #000;
+   font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
+   margin-right: 26px;
+   color: #000;
    text-decoration: none;
 }
-.menu__item:last-child {
- /*margin-right: 0;*/
+.menu__item:last-child{
 }
 .menu__item::after{
   position: absolute;
@@ -214,13 +212,13 @@ body {
     margin-top: -39px;
     font-size: 24px;
   }
-  .menu {
+  .menu{
     margin: -17px -117px 102px 4px;
   }
   .menu__item {
     font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
   }
-  .main {
+  .main{
     padding-right: 72%;
     background-position: right;
     padding-top: 305px;
@@ -253,7 +251,7 @@ body {
     background-size: 490px;
   }
     }
-@media (max-width: 768px) {
+@media (max-width: 768px){
   .wrapper {
     width: 88vw;
   }
