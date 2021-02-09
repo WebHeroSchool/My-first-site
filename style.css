@@ -37,20 +37,94 @@ body {
   background: #ecf3ff;
 }
 
-.main-content__button {
-  display: inline-block;
-  font: 18px/21px Roboto, arial, helvetica, sans-serif;
-  color: #fff;
-  background: #0056EC;
-  padding: 18px 21px;
-  text-decoration: none;
-  border-radius: 4px;
-  transition: opacity .5s;
+
+.main-content__button{
+ display: inline-block;
+ font: 18px/21px Roboto, arial, helvetica, sans-serif;
+ color: #fff;
+ background: #0056ce;
+ padding: 18px 21px;
+ text-decoration: none;
+ border-radius: 4px;
+ overflow: hidden;
 }
 
-.main-content__button:hover {
-  opacity: .5;
+.main-content__button:before {
+    position: absolute;
+    content: '';
+    top: 7px;
+    bottom: 91%;
+    left: 8px;
+    width: 20%;
+    background: #FFFFFF;
+    opacity: 0.2;
+
 }
+.main-content__button span:nth-child(1) {
+    position: absolute;
+    top: 707px;
+    left: 192px;
+    width: 14%;
+    height: 2px;
+    background: linear-gradient(to right, #0056ce,#FFFFFF);
+    animation: animatel1 2s linear infinite;
+    animation-delay: 1s;
+}
+@keyframes animatel1 {
+  0% {transform: translateX(-100%);
+  }
+  100% {transform: translateX(100%);
+  }
+}
+.main-content__button span:nth-child(2) {
+    position: absolute;
+    bottom: 309px;
+    right: 1470px;
+    width: 2px;
+    height: 6%;
+    background: linear-gradient(to bottom, #0056ce,#FFFFFF);
+    animation: animatel2 2s linear infinite;
+    animation-delay: 1s;
+}
+@keyframes animatel2 {
+  0% {transform: translateY(-100%);
+  }
+  100% {transform: translateY(100%);
+  }
+}
+.main-content__button span:nth-child(3) {
+    position: absolute;
+    bottom: 316px;
+    left: 193px;
+    width: 9%;
+    height: 2px;
+    background: linear-gradient(to left, #0056ce,#FFFFFF);
+    animation: animatel3 2s linear infinite;
+}
+@keyframes animatel3 {
+  0% {transform: translateX(100%);
+  }
+  100% {transform: translateX(-100%);
+  }
+}
+.main-content__button span:nth-child(4) {
+    position: absolute;
+    bottom: 29%;
+    left: 191px;
+    width: 2px;
+    height: 6%;
+    background: linear-gradient(to top, #0056ce,#FFFFFF);
+    animation: animatel4 2s linear infinite;
+    animation-delay: 1s;
+
+}
+@keyframes animatel4 {
+  0% {transform: translateY(100%);
+  }
+  100% {transform: translateY(-100%);
+  }
+}
+
 .logo, .menu {
   display: inline-block;
 }
@@ -520,5 +594,5 @@ body {
 
   .logo {
     text-indent: 100%;
-}
+ }
 }
