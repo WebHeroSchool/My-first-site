@@ -61,10 +61,10 @@ body {
 
 }
 .main-content__button span:nth-child(1) {
-    position: absolute;
+    position: relative;
     top: 707px;
     left: 192px;
-    width: 14%;
+    width: 100%;
     height: 2px;
     background: linear-gradient(to right, #0056ce,#FFFFFF);
     animation: animatel1 2s linear infinite;
@@ -81,7 +81,7 @@ body {
     bottom: 309px;
     right: 1470px;
     width: 2px;
-    height: 6%;
+    height: 100%;
     background: linear-gradient(to bottom, #0056ce,#FFFFFF);
     animation: animatel2 2s linear infinite;
     animation-delay: 1s;
@@ -93,10 +93,10 @@ body {
   }
 }
 .main-content__button span:nth-child(3) {
-    position: absolute;
+    position: relative;
     bottom: 316px;
     left: 193px;
-    width: 9%;
+    width: 100%;
     height: 2px;
     background: linear-gradient(to left, #0056ce,#FFFFFF);
     animation: animatel3 2s linear infinite;
@@ -108,11 +108,11 @@ body {
   }
 }
 .main-content__button span:nth-child(4) {
-    position: absolute;
+    position: relative;
     bottom: 29%;
     left: 191px;
     width: 2px;
-    height: 6%;
+    height: 100%;
     background: linear-gradient(to top, #0056ce,#FFFFFF);
     animation: animatel4 2s linear infinite;
     animation-delay: 1s;
@@ -594,5 +594,5 @@ body {
 
   .logo {
     text-indent: 100%;
- }
+}
 }
