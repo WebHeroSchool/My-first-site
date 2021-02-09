@@ -42,33 +42,28 @@ body {
  display: inline-block;
  font: 18px/21px Roboto, arial, helvetica, sans-serif;
  color: #fff;
- background: #0056ce;
+ background: #0056EC;
  padding: 18px 21px;
  text-decoration: none;
  border-radius: 4px;
  overflow: hidden;
+ position: relative;
+   -webkit-transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+   transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
 }
-
-.main-content__button:before {
-    position: relative;
-    content: '';
-    top: 7px;
-    bottom: 91%;
-    left: 8px;
-    width: 20%;
-    background: #FFFFFF;
-    opacity: 0.2;
-
+.main-content__button:hover {
+  box-shadow: 0 0 40px 40px #6A5ACD inset;
 }
 .main-content__button span:nth-child(1) {
   position: absolute;
-top: 707px;
-left: 204px;
-width: 13%;
-height: 2px;
-background: linear-gradient(to right, #0056ce,#FFFFFF);
-animation: animatel1 2s linear infinite;
-animation-delay: 1s
+  top: 54px;
+  left: 204px;
+  width: 100%;
+  background: fixed;
+  height: 6px;
+  background: linear-gradient(to right, #00FFFF,#00BFFF);
+  animation: animatel1 2s linear infinite;
+  animation-delay: 1s;
 }
 @keyframes animatel1 {
   0% {transform: translateX(-100%);
@@ -78,13 +73,13 @@ animation-delay: 1s
 }
 .main-content__button span:nth-child(2) {
   position: absolute;
-  bottom: 331px;
-  right: 1533px;
-  width: 2px;
-  height: 5%;
-  background: linear-gradient(to bottom, #0056ce,#FFFFFF);
-  animation: animatel2 2s linear infinite;
-  animation-delay: 1s;
+    bottom: 53px;
+    right: 254px;
+    width: 6px;
+    height: 100%;
+    background: linear-gradient(to bottom, #00FFFF,#00BFFF);
+    animation: animatel2 2s linear infinite;
+    animation-delay: 1s;
 }
 @keyframes animatel2 {
   0% {transform: translateY(-100%);
@@ -94,11 +89,11 @@ animation-delay: 1s
 }
 .main-content__button span:nth-child(3) {
   position: absolute;
-bottom: 330px;
+bottom: 55px;
 left: 193px;
-width: 13%;
-height: 2px;
-background: linear-gradient(to left, #0056ce,#FFFFFF);
+width: 100%;
+height: 6px;
+background: linear-gradient(to left, #00FFFF,#00BFFF);
 animation: animatel3 2s linear infinite;
 
 }
@@ -111,13 +106,12 @@ animation: animatel3 2s linear infinite;
 .main-content__button span:nth-child(4) {
   position: absolute;
   bottom: 29%;
-  left: 198px;
-  width: 2px;
-  height: 5%;
-  background: linear-gradient(to top, #0056ce,#FFFFFF);
+  left: 254px;
+  width: 6px;
+  height: 100%;
+  background: linear-gradient(to top, #00FFFF,#00BFFF);
   animation: animatel4 2s linear infinite;
   animation-delay: 1s;
-
 }
 @keyframes animatel4 {
   0% {transform: translateY(100%);
