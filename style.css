@@ -37,7 +37,7 @@ body {
   background: #ecf3ff;
 }
 
-.main-content__button{
+.main-content__button {
    display: inline-block;
    font: 18px/21px Roboto, arial, helvetica, sans-serif;
    color: #fff;
@@ -377,7 +377,7 @@ animation: animatel3 2s linear infinite;
     width: 23px;
     height: 23px;
     cursor: pointer;
-    z-index: 1;
+    z-index: 2;
   }
 
   .menu__btn > span,
@@ -413,6 +413,7 @@ animation: animatel3 2s linear infinite;
     text-align: center;
     background-color: #fff;
     box-shadow: 1px 0 6px rgba(0, 0, 0, .2);
+    z-index: 1;
   }
 
   .menu__item {
@@ -522,7 +523,7 @@ animation: animatel3 2s linear infinite;
     width: 48px;
     height: 23px;
     cursor: pointer;
-    z-index: 1;
+    z-index: 2;
     margin-left: 201px;
   }
 
@@ -559,6 +560,7 @@ animation: animatel3 2s linear infinite;
     text-align: center;
     background-color: #fff;
     box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+    z-index: 1;
 }
   .menu__item {
     display: block;
